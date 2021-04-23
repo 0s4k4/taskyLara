@@ -1,0 +1,63 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "anandsiddharth/laravel-paytm-wallet": "^1.0",
+        "barryvdh/laravel-dompdf": "^0.8.4",
+        "intervention/image": "dev-master",
+        "laravel/framework": "^8.0",
+        "laravel/ui": "^3.0",
+        "laravel/socialite": "^5.0",
+        "laravel/tinker": "^2.0",
+        "laravelcollective/html": "^6.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Responsive\\": "app/",
+            "Database\\Factories\\":"database/factories/",
+            "Database\\Seeders\\":  "database/seeders/"
+        },
+        "files": [
+            "app/Stripe/lib/Stripe.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
