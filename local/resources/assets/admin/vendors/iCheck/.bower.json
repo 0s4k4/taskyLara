@@ -25,7 +25,6 @@
     "jquery": ">=1.7"
   },
   "ignore": [
-    ".gitignore",
     "CHANGELOG.md",
     "README.md",
     "demo/"
