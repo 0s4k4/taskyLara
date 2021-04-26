@@ -98,6 +98,9 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
                                 </button>
                         </div>
                         	<?php if(Session::has('error')): ?>
+                        
+
+                        
 
 	    <div class="alert alert-danger">
 
@@ -116,6 +119,11 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
                         </div>
 						</div>
 						</div>
+
+                      
+
+
+                        
 						
 						<div class="col-sm-12 text-center">
 						<?php  if (in_array('Facebook', $hidden)){?>
@@ -126,7 +134,10 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
 						<?php } ?>	
 							<?php  if (in_array('GPlus', $hidden)){?>
 							<div class="form-group"><a href="<?php echo e(url('/login/google')); ?>"><img src="<?php echo $url;?>/local/images/button3.png" border="0"></a></div>
+
 						<?php } ?>
+                        <a href="<?php echo $url;?>/index"  class="btn-link">Volver a inicio</a>
+
 					</div>
 						
 						

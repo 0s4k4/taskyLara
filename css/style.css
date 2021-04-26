@@ -3942,6 +3942,10 @@ header.sv_mob_menu li {
     margin-bottom: 15px;
 }
 
+.volverInicio{
+	text-align: center;
+}
+
 /*vendor 20/may/2019 */
 .modal-footer {
      text-align: center; 
