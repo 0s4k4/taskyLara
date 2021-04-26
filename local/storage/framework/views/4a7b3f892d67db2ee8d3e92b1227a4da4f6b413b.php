@@ -52,11 +52,11 @@ $setid=1;
 		<div class="col-md-12" align="center">
 		<div class="row">
 		
-		<h1 class="headingcolor"><?php echo e(__('user.convenient_affordable_around_home')); ?></h1>
+		<h1 class="colorCabcera"><?php echo e(__('user.convenient_affordable_around_home')); ?></h1>
 		</div>
 		<div class="row">
 		<div class="col-md-12">
-		<h4 class="headingcolor"> <?php echo e(__('user.taskers_help_without_breaking_bank')); ?> </h4>
+		<h4 class="colorCabcera"> <?php echo e(__('user.taskers_help_without_breaking_bank')); ?> </h4>
 		</div>
 
 		</div>
