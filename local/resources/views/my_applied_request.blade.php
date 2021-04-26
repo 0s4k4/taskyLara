@@ -6,7 +6,7 @@ $url = URL::to("/");
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 
     

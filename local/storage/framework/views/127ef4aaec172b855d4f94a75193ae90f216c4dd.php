@@ -136,6 +136,7 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
 							<div class="form-group"><a href="<?php echo e(url('/login/google')); ?>"><img src="<?php echo $url;?>/local/images/button3.png" border="0"></a></div>
 
 						<?php } ?>
+                        <!--se establece un a para rediridir al inicio--->
                         <a href="<?php echo $url;?>/index"  class="btn-link">Volver a inicio</a>
 
 					</div>

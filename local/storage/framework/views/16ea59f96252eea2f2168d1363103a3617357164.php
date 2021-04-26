@@ -11,7 +11,7 @@ else
 }*/
 ?>   
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     
    <?php echo $__env->make('style', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

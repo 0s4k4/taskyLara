@@ -5,7 +5,7 @@ $url = URL::to("/");
 
  ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $title ?></title>

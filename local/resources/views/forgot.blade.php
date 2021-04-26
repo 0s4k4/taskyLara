@@ -4,7 +4,7 @@ $currentPaths= Route::getFacadeRoot()->current()->uri();
 $url = URL::to("/");
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
    @include('style')
 </head>
