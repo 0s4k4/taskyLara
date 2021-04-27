@@ -367,9 +367,11 @@ $setid=1;
 	
 	
 	
+	<!-- seccion de testimonios, se comenta hasta que se cuenten con mas usuarios  a quienes se deben encuestar para poner sus opiniones aqui-->
 	
-	<div class="col-md-10 nopadding testimons">
-	<?php if(!empty($testimonials_cnt)){?>
+	<!--<div class="col-md-10 nopadding testimons"> -->
+	
+	<!--<?php if(!empty($testimonials_cnt)){?>
 	<div id="flexiselDemotesti">
 	
 	<?php foreach($testimonials as $testimonial){?>
@@ -399,9 +401,8 @@ $setid=1;
 		
 	
 	</div>
-	<?php } ?>
+	<?php } ?> -->
 	</div>
-	
 	
 	<div class="col-md-1"></div>
 	</div>
@@ -528,3 +529,7 @@ $setid=1;
       @include('footer')
 </body>
 </html>
+
+
+
+
