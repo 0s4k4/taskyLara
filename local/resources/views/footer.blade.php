@@ -26,14 +26,21 @@ $setid=1;
 		<div>
 		
 		
-		 <a class="" href="<?php echo $url;?>">
+		 <!--<a class="" href="<?php echo $url;?>">
 		   <?php if(!empty($setts[0]->site_logo)){?>
 		  
 		  <img src="<?php echo $url.'/local/images/settings/'.$setts[0]->site_logo;?>" border="0" alt="<?php echo $setts[0]->site_name;?>" class="img-responsive footres"/>
 		   <?php } else {?>
 		   <?php echo $setts[0]->site_name;?>
 		   <?php } ?>
-		  </a>
+		  </a>-->
+
+		  <img src="local/images/4tasker2.png">
+
+
+
+
+
 		</div>
 		
 		<div class="social">
