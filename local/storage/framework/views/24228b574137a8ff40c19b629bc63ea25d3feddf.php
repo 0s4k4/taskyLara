@@ -307,7 +307,7 @@ $setid=1;
 	<div class="media">
 	  <div class="media-left pull-left">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/how_works_icon_1.png" alt="how_works_icon">
+		  <img class="media-object" src="<?php echo $url;?>/img/img1.png" alt="how_works_icon">
 		</a>
 	  </div>
 	  <div class="media-body">
@@ -320,7 +320,7 @@ $setid=1;
 	<div class="media">
 	  <div class="media-left pull-right hidden-xs">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/how_works_icon_2.png" alt="how_works_icon">
+		  <img class="media-object" src="<?php echo $url;?>/img/img2.png" alt="how_works_icon">
 		</a>
 	  </div>
 	  <div class="media-body">
@@ -333,7 +333,7 @@ $setid=1;
 	<div class="media">
 	  <div class="media-left pull-left hidden-xs">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/how_works_icon_3.png" alt="how_works_icon">
+		  <img class="media-object" src="<?php echo $url;?>/img/img3.png" alt="how_works_icon">
 		</a>
 	  </div>
 	  <div class="media-body">

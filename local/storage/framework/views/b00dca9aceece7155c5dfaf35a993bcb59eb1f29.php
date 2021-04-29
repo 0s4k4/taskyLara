@@ -40,9 +40,7 @@ $setid=1;
 		<ul>
 		<li><a href="<?php echo $setts[0]->site_facebook;?>" target="_blank"><img src="<?php echo $url."/local/images/facebook.png";?>" border="0" alt="facebook" title="facebook"></a></li>
 		<li><a href="<?php echo $setts[0]->site_twitter;?>" target="_blank"><img src="<?php echo $url."/local/images/twitter.png";?>" alt="twitter" border="0" title="twitter"></a></li>
-		<li><a href="<?php echo $setts[0]->site_gplus;?>" target="_blank"><img src="<?php echo $url."/local/images/gplus.png";?>" alt="gplus" border="0" title="gplus"></a></li>
 		<li><a href="<?php echo $setts[0]->site_instagram;?>" target="_blank"><img src="<?php echo $url."/local/images/instagram.png";?>" alt="instagram" border="0" title="instagram"></a></li>
-		<li><a href="<?php echo $setts[0]->site_pinterest;?>" target="_blank"><img src="<?php echo $url."/local/images/pinterest.png";?>" alt="pinterest" border="0" title="pinterest"></a></li>
 		</ul>
 		
 		</div>
