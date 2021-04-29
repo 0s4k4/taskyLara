@@ -368,7 +368,7 @@ $setid=1;
 	
 	
 	
-	<!-- seccion de testimonios, se comenta hasta que se cuenten con mas usuarios  a quienes se deben encuestar para poner sus opiniones aqui-->
+	<!-- seccion de testimonios se comenta hasta que se cuenten con mas usuarios  a quienes se deben encuestar para poner sus opiniones aqui-->
 	
 	<!--<div class="col-md-10 nopadding testimons"> -->
 	
@@ -444,8 +444,11 @@ $setid=1;
 	</div>
 
 	</div>
+
+
+   <!-- se comenta esta area, se puede utilizar para otra funcion-->
 	
-	
+	<!--
 	<div class="video svimgsec">
 	<div class="clearfix"></div>
 	<div class="container">
@@ -526,6 +529,7 @@ $setid=1;
 
       <div class="clearfix"></div>
 	  <div class="clearfix"></div>
+	-->
 
       <?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 </body>
