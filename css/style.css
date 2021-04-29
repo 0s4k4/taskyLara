@@ -3472,7 +3472,7 @@ html, body{
 .forgot-password-page,
 .register-page,
 .login-page {
-	background-image: url(../img/login-bg.jpg);
+	background-color: #F44611;
 	background-repeat: no-repeat;
 	background-position: center;
 /* 	background-attachment: fixed; */
