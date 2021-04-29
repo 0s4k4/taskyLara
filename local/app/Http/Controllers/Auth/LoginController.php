@@ -108,7 +108,7 @@ protected function login(Request $request)
 	
 	
 	$validator = Validator::make($request->all(), [
-            'email' => 'required|max:255',
+            'username' => 'required|max:255',
             'password' => 'required',
 			
 			
@@ -127,8 +127,8 @@ protected function login(Request $request)
     
 	
 	
-		$usernameInput = trim(Input::get('email'));
-		$usernameColumn = filter_var($usernameInput, FILTER_VALIDATE_EMAIL) ? 'name' : 'email';
+		$usernameInput = trim(Input::get('username'));
+		$usernameColumn = filter_var($usernameInput, FILTER_VALIDATE_EMAIL) ? 'email' : 'name';
 
 		if (Auth::attempt(array($usernameColumn => $usernameInput, 'password' => Input::get('password') ))) 
 		{
