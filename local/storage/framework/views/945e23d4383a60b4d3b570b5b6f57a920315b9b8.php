@@ -176,7 +176,7 @@ $(document).ready(function(){
 <header class="sv_mob_menu">
 <div id="mySidenav" class="sidenav ">
     <div class="header_part">
-    <span class="sv_menu_title">Tasky</span>
+    <span class="sv_menu_title">4tasker</span>
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   </div>
   
