@@ -153,8 +153,9 @@ protected function login(Request $request)
 					
 				}
                 else
-				{					
-				return redirect('/dashboard');
+				{				
+                    //una vez que se loggea el usuario se redirige al index	
+				return redirect('/');
 				}
 					
 				
