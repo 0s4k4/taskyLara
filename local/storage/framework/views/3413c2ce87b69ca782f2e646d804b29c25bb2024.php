@@ -94,7 +94,7 @@ $setid=1;
 
                             </button>
                         </div>
-                        <?php echo e(__('user.already_have_account')); ?><a class="btn-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('user.sign_in')); ?></a>
+                        <?php echo e(__('user.already_have_account')); ?><a class="btn-link" href="<?php echo e(route('login')); ?>">Inicia sesion</a>
                         
                     </form>
                     <!--se establece un a para rediridir al inicio--->

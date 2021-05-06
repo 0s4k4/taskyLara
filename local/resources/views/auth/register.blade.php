@@ -92,7 +92,7 @@ $setid=1;
                                 {{ __('user.create_account') }}
                             </button>
                         </div>
-                        {{ __('user.already_have_account') }}<a class="btn-link" href="{{ route('login') }}">{{ __('user.sign_in') }}</a>
+                        {{ __('user.already_have_account') }}<a class="btn-link" href="{{ route('login') }}">Inicia sesion</a>
                         
                     </form>
                     <!--se establece un a para rediridir al inicio--->

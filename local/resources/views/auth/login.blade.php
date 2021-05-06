@@ -37,7 +37,7 @@ $setid=1;
 
 $gett = Session::get('resenderr');
 
-$ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$gett.'" style="font-weight:bold; text-decoration:underline;">Resend Email</a>'; ?>
+$ery = 'Confirme la verificación del correo electrónico para iniciar sesión <a href="'.$url.'/index/'.$gett.'" style="font-weight:bold; text-decoration:underline;">Resend Email</a>'; ?>
 	    <div class="alert alert-danger">
 
 	      <?php echo $ery;?>
@@ -61,7 +61,7 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                                <input id="username" type="text" class="form-control input-lg" placeholder="{{ __('user.username') }}" name="username" value="{{ old('email') }}" required autofocus>
+                                <input id="username" type="text" class="form-control input-lg" placeholder="Correo electrónico" name="username" value="{{ old('email') }}" required autofocus>
 
                                 @if ($errors->has('email'))
                                     <span class="help-block">
@@ -118,7 +118,7 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
 
 
                         
-						
+						<!-- se comenta mientras se arregla la api de verificacion por redes sociales
 						<div class="col-sm-12 text-center">
 						<?php  if (in_array('Facebook', $hidden)){?>
 							<div class="form-group"><a href="{{ url('/login/facebook') }}"><img src="<?php echo $url;?>/local/images/button1.png" border="0"></a></div>
@@ -130,6 +130,7 @@ $ery = 'Please confirm email verfication to login <a href="'.$url.'/index/'.$get
 							<div class="form-group"><a href="{{ url('/login/google') }}"><img src="<?php echo $url;?>/local/images/button3.png" border="0"></a></div>
 
 						<?php } ?>
+                -->
                         <!--se establece un a para rediridir al inicio--->
                         <a href="<?php echo $url;?>/index"  class="btn-link">Volver a inicio</a>
 

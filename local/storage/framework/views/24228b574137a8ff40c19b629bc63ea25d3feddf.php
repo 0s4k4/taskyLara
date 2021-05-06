@@ -428,7 +428,7 @@ $setid=1;
 	<div class="row">	
 	<div class="col-sm-12">	
 	<div class="col-sm-5 col-md-4">
-	<a href="#"><img src="<?php echo $url.'/local/images/google.png';?>" class="img-responsive" alt=""></a>
+	<a href="https://play.google.com/store/apps/details?id=com.fourtasker.app&hl=es_MX&gl=US"><img src="<?php echo $url.'/local/images/google.png';?>" class="img-responsive" alt=""></a>
 	</div>
 	<div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-0">
 	<a href="#"><img src="<?php echo $url.'/local/images/apple.png';?>" class="img-responsive" alt=""></a>
