@@ -60,7 +60,6 @@ if(Auth::check())
 					
               	</ul>
             </li>
-			<li><a href="<?php echo $url;?>/new-request"  class="borbtn"><?php echo e(__('user.post_job')); ?></a></li>
             <?php } else { ?>
 			<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php echo e(Auth::user()->name); ?> <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -153,7 +152,6 @@ if(Auth::check())
 					<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
               	</ul>
             </li>
-			<li><a href="<?php echo $url;?>/new-request"  class="borbtn"> <?php echo e(__('user.post_job')); ?></a></li>
 			<?php } ?>
           </ul>
         </div> <!-- /.nav-collapse -->
@@ -250,7 +248,6 @@ $(document).ready(function(){
 				<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-search-minus" aria-hidden="true"></i><?php echo e(__('user.my_jobs')); ?><i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <ul class="dropdown-menu sv_sub_menu">
-			  <li><a href="<?php echo $url;?>/new-request"  class="borbtn"><?php echo e(__('user.post_job')); ?></a></li>
                    <li><a href="<?php echo $url;?>/my_request"><?php echo e(__('user.my_posted_jobs')); ?></a></li>
                  
                   <li><a href="<?php echo $url;?>/my_client_request"><?php echo e(__('user.running_jobs_client')); ?></a></li>
