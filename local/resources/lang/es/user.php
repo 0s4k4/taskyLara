@@ -569,7 +569,6 @@ return [
     'pros' => 'Pros',
     'success_stories' => 'Historias de éxito',
     'questions' => 'Preguntas?',
-    'contact' => 'Contacto',
     'android' => 'Androide',
     'iphone' => 'Iphone',
     'download_thumbsup_app'=> 'Descargar la aplicación Thumbsup',

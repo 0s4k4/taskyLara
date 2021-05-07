@@ -109,7 +109,7 @@ function googleTranslateElementInit() {
 		<div class="col-md-2">
 		<h4>{{ __('user.questions') }} </h4>
 		<ul>
-		<li><a href="<?php echo $url;?>/contact">{{ __('user.contact') }}</a></li>
+		<li><a href="<?php echo $url;?>/contact">Quejas y sugerencias</a></li>
 		<li><a href="#">{{ __('user.android') }}</a></li>
 		<li><a href="#">{{ __('user.iphone') }}</a></li>
 

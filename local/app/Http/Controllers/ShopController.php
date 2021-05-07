@@ -448,7 +448,7 @@ class ShopController extends Controller
 			$destinationPath=base_path('images'.$shopphoto);
  
         
-               Image::make($shop_cover_photo->getRealPath())->resize(1400, 300)->save($path);
+               Image::make($shop_cover_photo->getRealPath())->resize(815, 315)->save($path);
 				
 				$namef=$filename;
 		 }
@@ -480,7 +480,7 @@ class ShopController extends Controller
 			
               /*$destinaPath=base_path('images'.$shopphoto);*/
         
-               Image::make($shop_profile_photo->getRealPath())->resize(150, 150)->save($paths);
+               Image::make($shop_profile_photo->getRealPath())->resize(180, 180)->save($paths);
 				/*Input::file('shop_profile_photo')->move($destinaPath, $profilename);*/
 				$namepro=$profilename;
 		 }
