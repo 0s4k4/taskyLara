@@ -3339,12 +3339,13 @@ input:-moz-placeholder { /* Firefox 18- */
 }
 footer {
     background: #e63e20;
+
 }
 .footerbar h4 {
 	color: white;
 	font-size: 20px;
 	text-transform: uppercase;
-	
+
 }
 
 /* masonary */

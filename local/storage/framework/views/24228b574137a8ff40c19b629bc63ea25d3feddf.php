@@ -284,75 +284,73 @@ $setid=1;
 	
 	<!-- main container -->
 	
-	
-	<div class="clearfix"></div>
-	
-	</div>
-	
-	<div class="clearfix"></div>
-	
+	<!-- cartas donde se descibre como funciona la aplicacion -->
+	<div class="clearfix home-clearfix"></div>
+	<div class="clearfix home-clearfix"></div>
 	
 	<div class="works">
 	<div class="container">
-	 <div class="col-md-12" align="center"><h1> <?php echo e(__('user.how_works')); ?></h1></div>
+	 <div class="col-md-12" align="center" ><h1><b style="font-size:35px; color:#FF4600; letter-spacing: 4px; text-transform: uppercase; "> <?php echo e(__('user.how_works')); ?></b></h1></div>
 	<div class="row">
 	<div class="col-md-12">
-	<div class="col-md-3"></div>
-	<div class="col-md-6">
-	<!--<div class="col-md-6">
-	<img src="img/how-it-works.png" class="img-responsive" alt="">
-	</div>-->
-	
-	
+	<div class="col-md-4">	
 	<div class="media">
-	  <div class="media-left pull-left">
+	  <div class="media-top pull-center">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/img1.png" alt="how_works_icon">
+		  <center><img class="img-fluid"  width="70%" height="70%" src="<?php echo $url;?>/img/img1.png"></center>
 		</a>
 	  </div>
 	  <div class="media-body">
-		<span class="count">1</span>
-		<h4 class="media-heading"> <?php echo e(__('user.describe_task')); ?></h4>
+		<span class="count"  style="font-size:35px; color:#FF4600" >1</span>
+	<center><h4 class="media-heading"><b style="color:#02B21E"> <?php echo e(__('user.describe_task')); ?></b></h4></center>
 		<p class=""> <?php echo e(__('user.describe_task_para1')); ?></p>
 	  </div>
 	</div>
+	</div>
+	<div class="col-md-4">
 	
 	<div class="media">
-	  <div class="media-left pull-right hidden-xs">
+	  <div class="media-top pull-center">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/img2.png" alt="how_works_icon">
+		  <center><img class="img-fluid"  width="70%" height="70%" src="<?php echo $url;?>/img/img2.png" ></center>
 		</a>
 	  </div>
 	  <div class="media-body">
-		<span class="count">2</span>
-		<h4 class="media-heading"> <?php echo e(__('user.get_matched')); ?></h4>
+		<span class="count" style="font-size:35px; color:#FF4600" >2</span>
+		<center><h4 class="media-heading"><b  style="color:#02B21E"> <?php echo e(__('user.get_matched')); ?></b></h4></center>
 		<p class=""> <?php echo e(__('user.get_matched_para1')); ?></p>
 	  </div>
 	</div>
 	
+	</div>
+	<div class="col-md-4">
 	<div class="media">
-	  <div class="media-left pull-left hidden-xs">
+	  <div class="media-top pull-center">
 		<a href="#">
-		  <img class="media-object" src="<?php echo $url;?>/img/img3.png" alt="how_works_icon">
+		  <center><img class="img-fluid"  width="70%" height="70%" src="<?php echo $url;?>/img/img3.png"></center>
 		</a>
 	  </div>
 	  <div class="media-body">
-		<span class="count">3</span>
-		<h4 class="media-heading"> <?php echo e(__('user.get_done')); ?></h4>
+		<span class="count" style="font-size:35px; color:#FF4600" >3</span>
+		<center><h4 class="media-heading"> <b style="color:#02B21E"><?php echo e(__('user.get_done')); ?></b></h4></center>
 		<p class=""> <?php echo e(__('user.get_done_para1')); ?></p>
 	  </div>
 	</div>
-	
 	</div>
-	<div class="col-md-3"></div>
-	
+
 	</div>
 	
 	</div>
 	
 	</div>
+	
 	<div class="clearfix"></div>
 	</div>
+	
+	<div class="ashbg">
+	
+	<div class="clearfix home-clearfix"></div>
+		
 	
 	
 	<div class="clearfix"></div>
