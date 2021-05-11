@@ -6128,7 +6128,7 @@ Rodolphe ne parlait plus. Ils se regardaient. Un désir suprême
 faisait frissonner leurs lèvres sèches; et mollement, sans effort,
 leurs doigts se confondirent.
 
-«Catherine-Nicaise-Élisabeth Leroux, de Sassetot-la-Guerrière,
+«Catherine-Nicaise-Élisabeth Leroux, de Ssecure_assetot-la-Guerrière,
 pour cinquante-quatre ans de service dans la même ferme, une
 médaille d'argent -- du prix de vingt-cinq francs!»
 

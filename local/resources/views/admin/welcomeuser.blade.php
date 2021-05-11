@@ -6,7 +6,7 @@
 			 if($logphoto!=""){?>
                 <img src="<?php echo  $url;?>/local/images/userphoto/<?php echo $logphoto;?>" alt="..." class="img-circle profile_img">
 			 <?php } else { ?>
-			   <img src="{{asset('local/resources/assets/img/user.png')}}" alt="..." class="img-circle profile_img">
+			   <img src="{{secure_asset('local/resources/secure_assets/img/user.png')}}" alt="..." class="img-circle profile_img">
 			 <?php } ?>
 			 
 			  </div>

@@ -1020,7 +1020,7 @@ class FormBuilder
      */
     public function image($url, $name = null, $attributes = [])
     {
-        $attributes['src'] = $this->url->asset($url);
+        $attributes['src'] = $this->url->secure_asset($url);
 
         return $this->input('image', $name, null, $attributes);
     }

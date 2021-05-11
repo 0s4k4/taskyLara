@@ -76,7 +76,7 @@ class HtmlBuilder
      */
     public function script($url, $attributes = [], $secure = null)
     {
-        $attributes['src'] = $this->url->asset($url, $secure);
+        $attributes['src'] = $this->url->secure_asset($url, $secure);
 
         return $this->toHtmlString('<script' . $this->attributes($attributes) . '></script>');
     }
@@ -96,7 +96,7 @@ class HtmlBuilder
 
         $attributes = array_merge($defaults, $attributes);
 
-        $attributes['href'] = $this->url->asset($url, $secure);
+        $attributes['href'] = $this->url->secure_asset($url, $secure);
 
         return $this->toHtmlString('<link' . $this->attributes($attributes) . '>');
     }
@@ -115,7 +115,7 @@ class HtmlBuilder
     {
         $attributes['alt'] = $alt;
 
-        return $this->toHtmlString('<img src="' . $this->url->asset($url,
+        return $this->toHtmlString('<img src="' . $this->url->secure_asset($url,
             $secure) . '"' . $this->attributes($attributes) . '>');
     }
 
@@ -134,7 +134,7 @@ class HtmlBuilder
 
         $attributes = array_merge($defaults, $attributes);
 
-        $attributes['href'] = $this->url->asset($url, $secure);
+        $attributes['href'] = $this->url->secure_asset($url, $secure);
 
         return $this->toHtmlString('<link' . $this->attributes($attributes) . '>');
     }
@@ -181,7 +181,7 @@ class HtmlBuilder
     }
 
     /**
-     * Generate a HTML link to an asset.
+     * Generate a HTML link to an secure_asset.
      *
      * @param string $url
      * @param string $title
@@ -191,15 +191,15 @@ class HtmlBuilder
      *
      * @return \Illuminate\Support\HtmlString
      */
-    public function linkAsset($url, $title = null, $attributes = [], $secure = null, $escape = true)
+    public function linksecure_asset($url, $title = null, $attributes = [], $secure = null, $escape = true)
     {
-        $url = $this->url->asset($url, $secure);
+        $url = $this->url->secure_asset($url, $secure);
 
         return $this->link($url, $title ?: $url, $attributes, $secure, $escape);
     }
 
     /**
-     * Generate a HTTPS HTML link to an asset.
+     * Generate a HTTPS HTML link to an secure_asset.
      *
      * @param string $url
      * @param string $title
@@ -208,9 +208,9 @@ class HtmlBuilder
      *
      * @return \Illuminate\Support\HtmlString
      */
-    public function linkSecureAsset($url, $title = null, $attributes = [], $escape = true)
+    public function linkSecuresecure_asset($url, $title = null, $attributes = [], $escape = true)
     {
-        return $this->linkAsset($url, $title, $attributes, true, $escape);
+        return $this->linksecure_asset($url, $title, $attributes, true, $escape);
     }
 
     /**

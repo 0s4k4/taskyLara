@@ -224,5 +224,5 @@ $('#langOpt').multiselect({
 });
 </script>
 	
-	<?php /* ?><script src="{{ asset('js/app.js') }}"></script><?php */?>
+	<?php /* ?><script src="{{ secure_asset('js/app.js') }}"></script><?php */?>
 	

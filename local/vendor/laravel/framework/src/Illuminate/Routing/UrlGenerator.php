@@ -33,11 +33,11 @@ class UrlGenerator implements UrlGeneratorContract
     protected $request;
 
     /**
-     * The asset root URL.
+     * The secure_asset root URL.
      *
      * @var string
      */
-    protected $assetRoot;
+    protected $secure_assetRoot;
 
     /**
      * The forced URL root.
@@ -114,13 +114,13 @@ class UrlGenerator implements UrlGeneratorContract
      *
      * @param  \Illuminate\Routing\RouteCollectionInterface  $routes
      * @param  \Illuminate\Http\Request  $request
-     * @param  string|null  $assetRoot
+     * @param  string|null  $secure_assetRoot
      * @return void
      */
-    public function __construct(RouteCollectionInterface $routes, Request $request, $assetRoot = null)
+    public function __construct(RouteCollectionInterface $routes, Request $request, $secure_assetRoot = null)
     {
         $this->routes = $routes;
-        $this->assetRoot = $assetRoot;
+        $this->secure_assetRoot = $secure_assetRoot;
 
         $this->setRequest($request);
     }
@@ -224,13 +224,13 @@ class UrlGenerator implements UrlGeneratorContract
     }
 
     /**
-     * Generate the URL to an application asset.
+     * Generate the URL to an application secure_asset.
      *
      * @param  string  $path
      * @param  bool|null  $secure
      * @return string
      */
-    public function asset($path, $secure = null)
+    public function secure_asset($path, $secure = null)
     {
         if ($this->isValidUrl($path)) {
             return $path;
@@ -238,36 +238,36 @@ class UrlGenerator implements UrlGeneratorContract
 
         // Once we get the root URL, we will check to see if it contains an index.php
         // file in the paths. If it does, we will remove it since it is not needed
-        // for asset paths, but only for routes to endpoints in the application.
-        $root = $this->assetRoot ?: $this->formatRoot($this->formatScheme($secure));
+        // for secure_asset paths, but only for routes to endpoints in the application.
+        $root = $this->secure_assetRoot ?: $this->formatRoot($this->formatScheme($secure));
 
         return $this->removeIndex($root).'/'.trim($path, '/');
     }
 
     /**
-     * Generate the URL to a secure asset.
+     * Generate the URL to a secure secure_asset.
      *
      * @param  string  $path
      * @return string
      */
-    public function secureAsset($path)
+    public function securesecure_asset($path)
     {
-        return $this->asset($path, true);
+        return $this->secure_asset($path, true);
     }
 
     /**
-     * Generate the URL to an asset from a custom root domain such as CDN, etc.
+     * Generate the URL to an secure_asset from a custom root domain such as CDN, etc.
      *
      * @param  string  $root
      * @param  string  $path
      * @param  bool|null  $secure
      * @return string
      */
-    public function assetFrom($root, $path, $secure = null)
+    public function secure_assetFrom($root, $path, $secure = null)
     {
         // Once we get the root URL, we will check to see if it contains an index.php
         // file in the paths. If it does, we will remove it since it is not needed
-        // for asset paths, but only for routes to endpoints in the application.
+        // for secure_asset paths, but only for routes to endpoints in the application.
         $root = $this->formatRoot($this->formatScheme($secure), $root);
 
         return $this->removeIndex($root).'/'.trim($path, '/');

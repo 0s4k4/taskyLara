@@ -14,9 +14,9 @@ $setid=1;
    
 
    @include('style')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/slick.css') }}"/>
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/slick-theme.css') }}"/>
-<script type="text/javascript" src="{{ URL::asset('/js/slick.min.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ URL::secure_asset('/css/slick.css') }}"/>
+<link rel="stylesheet" type="text/css" href="{{ URL::secure_asset('/css/slick-theme.css') }}"/>
+<script type="text/javascript" src="{{ URL::secure_asset('/js/slick.min.js') }}"></script>
 
 
 

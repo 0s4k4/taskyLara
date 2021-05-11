@@ -14,9 +14,9 @@ $setid=1;
    
 
    <?php echo $__env->make('style', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('/css/slick.css')); ?>"/>
-<link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('/css/slick-theme.css')); ?>"/>
-<script type="text/javascript" src="<?php echo e(URL::asset('/js/slick.min.js')); ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo e(URL::secure_asset('/css/slick.css')); ?>"/>
+<link rel="stylesheet" type="text/css" href="<?php echo e(URL::secure_asset('/css/slick-theme.css')); ?>"/>
+<script type="text/javascript" src="<?php echo e(URL::secure_asset('/js/slick.min.js')); ?>"></script>
 
 
 

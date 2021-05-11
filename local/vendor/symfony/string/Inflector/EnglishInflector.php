@@ -118,7 +118,7 @@ final class EnglishInflector implements InflectorInterface
         // fees (fee), trees (tree), employees (employee)
         ['see', 3, true, true, 'ee'],
 
-        // roses (rose), garages (garage), cassettes (cassette),
+        // roses (rose), garages (garage), csecure_assettes (csecure_assette),
         // waltzes (waltz), heroes (hero), bushes (bush), arches (arch),
         // shoes (shoe)
         ['se', 2, true, true, ['', 'e']],

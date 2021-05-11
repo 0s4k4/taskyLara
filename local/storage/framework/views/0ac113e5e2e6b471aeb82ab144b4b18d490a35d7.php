@@ -34,7 +34,7 @@ if($currentPaths=="/")
 	 <?php } ?>
 
     <!-- Styles -->
-    <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+    <link href="<?php echo e(secure_asset('css/app.css')); ?>" rel="stylesheet">
 </head>
 <body>
     <div id="app">
