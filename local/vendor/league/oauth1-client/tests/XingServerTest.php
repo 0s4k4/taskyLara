@@ -218,9 +218,9 @@ class XingTest extends TestCase
 			"badges":[],
 			"photo_urls":
 				{
-				"large":"https://x1.xingsecure_assets.com/secure_assets/frontend_minified/img/users/nobody_m.140x185.jpg",
-				"maxi_thumb":"https://x1.xingsecure_assets.com/secure_assets/frontend_minified/img/users/nobody_m.70x93.jpg",
-				"medium_thumb":"https://x1.xingsecure_assets.com/secure_assets/frontend_minified/img/users/nobody_m.57x75.jpg"
+				"large":"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.140x185.jpg",
+				"maxi_thumb":"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.70x93.jpg",
+				"medium_thumb":"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.57x75.jpg"
 				},
 			"permalink":"https://www.xing.com/profile/Roman_Gelembjuk",
 			"languages":{"en":null},

@@ -13,17 +13,17 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.0');
   api.use('jquery', 'client');
-  var secure_assets = [
+  var assets = [
     'dist/fonts/glyphicons-halflings-regular.eot',
     'dist/fonts/glyphicons-halflings-regular.svg',
     'dist/fonts/glyphicons-halflings-regular.ttf',
     'dist/fonts/glyphicons-halflings-regular.woff',
     'dist/fonts/glyphicons-halflings-regular.woff2'
   ];
-  if (api.addsecure_assets) {
-    api.addsecure_assets(secure_assets, 'client');
+  if (api.addassets) {
+    api.addassets(assets, 'client');
   } else {
-    api.addFiles(secure_assets, 'client', { issecure_asset: true });
+    api.addFiles(assets, 'client', { isasset: true });
   }
   api.addFiles([
     'dist/css/bootstrap.css',

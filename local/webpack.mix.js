@@ -2,7 +2,7 @@ const { mix } = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
- | Mix secure_asset Management
+ | Mix asset Management
  |--------------------------------------------------------------------------
  |
  | Mix provides a clean, fluent API for defining some Webpack build steps
@@ -11,5 +11,5 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('resources/secure_assets/js/app.js', 'public/js')
-   .sass('resources/secure_assets/sass/app.scss', 'public/css');
+mix.js('resources/assets/js/app.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css');

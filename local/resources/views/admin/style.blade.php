@@ -3,19 +3,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	{!!Html::script('local/resources/secure_assets/admin/vendors/jquery/dist/jquery.min.js')!!}
+	{!!Html::script('local/resources/assets/admin/vendors/jquery/dist/jquery.min.js')!!}
 	<!-- Bootstrap -->
-	{!!Html::style('local/resources/secure_assets/admin/vendors/bootstrap/dist/css/bootstrap.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/vendors/font-awesome/css/font-awesome.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/vendors/iCheck/skins/flat/green.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/vendors/bootstrap-daterangepicker/daterangepicker.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/build/css/custom.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/vendors/bootstrap/dist/css/bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/vendors/font-awesome/css/font-awesome.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/vendors/iCheck/skins/flat/green.css')!!}
+	{!!Html::style('local/resources/assets/admin/vendors/bootstrap-daterangepicker/daterangepicker.css')!!}
+	{!!Html::style('local/resources/assets/admin/build/css/custom.min.css')!!}
 	
-	{!!Html::style('local/resources/secure_assets/admin/js/dataTables.bootstrap.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/js/buttons.bootstrap.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/js/fixedHeader.bootstrap.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/js/responsive.bootstrap.min.css')!!}
-	{!!Html::style('local/resources/secure_assets/admin/js/scroller.bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/js/dataTables.bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/js/buttons.bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/js/fixedHeader.bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/js/responsive.bootstrap.min.css')!!}
+	{!!Html::style('local/resources/assets/admin/js/scroller.bootstrap.min.css')!!}
 	
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -79,8 +79,8 @@ $(document).ready(function(){
 
 <?php /* Text Editor */?>
 
-{!!Html::style('local/resources/secure_assets/admin/editor/themes/flat/style.css')!!}
-{!!Html::script('local/resources/secure_assets/admin/editor/cazary.min.js')!!}
+{!!Html::style('local/resources/assets/admin/editor/themes/flat/style.css')!!}
+{!!Html::script('local/resources/assets/admin/editor/cazary.min.js')!!}
 
 		<script type="text/javascript">
 		(function($, window)

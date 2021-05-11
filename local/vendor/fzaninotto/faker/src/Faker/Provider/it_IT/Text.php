@@ -266,7 +266,7 @@ V Pinocchio ha fame, e cerca un uovo per farsi una frittata; ma sul più bello, 
 Intanto cominciò a farsi notte, e Pinocchio, ricordandosi che non aveva mangiato nulla, senti un’uggiolina allo stomaco, che somigliava moltissimo all’appetito.
 Ma l’appetito nei ragazzi cammina presto; e di fatti dopo pochi minuti l’appetito diventò fame, e la fame, dal vedere al non vedere, si converti in una fame da lupi, una fame da tagliarsi col coltello.
 Il povero Pinocchio corse subito al focolare, dove c’era una pentola che bolliva e fece l’atto di scoperchiarla, per vedere che cosa ci fosse dentro, ma la pentola era dipinta sul muro. Figuratevi come restò. Il suo naso, che era già lungo, gli diventò più lungo almeno quattro dita.
-Allora si dette a correre per la stanza e a frugare per tutte le csecure_assette e per tutti i ripostigli in cerca di un po’ di pane, magari un po’ di pan secco, un crosterello, un osso avanzato al cane, un po’ di polenta muffita, una lisca di pesce, un nocciolo di ciliegia, insomma di qualche cosa da masticare: ma non trovò nulla, il gran nulla, proprio nulla.
+Allora si dette a correre per la stanza e a frugare per tutte le cassette e per tutti i ripostigli in cerca di un po’ di pane, magari un po’ di pan secco, un crosterello, un osso avanzato al cane, un po’ di polenta muffita, una lisca di pesce, un nocciolo di ciliegia, insomma di qualche cosa da masticare: ma non trovò nulla, il gran nulla, proprio nulla.
 E intanto la fame cresceva, e cresceva sempre: e il povero Pinocchio non aveva altro sollievo che quello di sbadigliare: e faceva degli sbadigli così lunghi, che qualche volta la bocca gli arrivava fino agli orecchi. E dopo avere sbadigliato, sputava, e sentiva che lo stomaco gli andava via.
 Allora piangendo e disperandosi, diceva:
 – Il Grillo-parlante aveva ragione. Ho fatto male a rivoltarmi al mio babbo e a fuggire di casa... Se il mio babbo fosse qui, ora non mi troverei a morire di sbadigli! Oh! che brutta malattia che è la fame!
@@ -670,7 +670,7 @@ Allora la Fata, battendo le mani insieme, fece due piccoli colpi, e apparve un m
 Il Can-barbone era vestito da cocchiere in livrea di gala. Aveva in capo un nicchiettino a tre punte gallonato d’oro, una parrucca bianca coi riccioli che gli scendevano giù per il collo, una giubba color di cioccolata coi bottoni di brillanti e con due grandi tasche per tenervi gli ossi che gli regalava a pranzo la padrona, un paio di calzoni corti di velluto cremisi, le calze di seta, gli scarpini scollati, e di dietro una specie di fodera da ombrelli, tutta di raso turchino, per mettervi dentro la coda, quando il tempo cominciava a piovere.
 – Su da bravo, Medoro! – disse la Fata al Can-barbone; – Fai subito attaccare la più bella carrozza della mia scuderia e prendi la via del bosco. Arrivato che sarai sotto la Quercia grande, troverai disteso sull’erba un povero burattino mezzo morto. Raccoglilo con garbo, posalo pari pari su i cuscini della carrozza e portamelo qui. Hai capito?
 Il Can-barbone, per fare intendere che aveva capito, dimenò tre o quattro volte la fodera di raso turchino, che aveva dietro, e partì come un barbero.
-Di lì a poco, si vide uscire dalla scuderia una bella carrozzina color dell’aria, tutta imbottita di penne di canarino e foderata nell’interno di panna montata e di crema coi savoiardi. La carrozzina era tirata da cento pariglie di topini bianchi, e il Can-barbone, seduto a csecure_assetta, schioccava la frusta a destra e a sinistra, come un vetturino quand’ha paura di aver fatto tardi.
+Di lì a poco, si vide uscire dalla scuderia una bella carrozzina color dell’aria, tutta imbottita di penne di canarino e foderata nell’interno di panna montata e di crema coi savoiardi. La carrozzina era tirata da cento pariglie di topini bianchi, e il Can-barbone, seduto a cassetta, schioccava la frusta a destra e a sinistra, come un vetturino quand’ha paura di aver fatto tardi.
 Non era ancora passato un quarto d’ora, che la carrozzina tornò, e la Fata, che stava aspettando sull’uscio di casa, prese in collo il povero burattino, e portatolo in una cameretta che aveva le pareti di madreperla, mandò subito a chiamare i medici più famosi del vicinato.
 E i medici arrivarono subito, uno dopo l’altro: arrivò, cioè, un Corvo, una Civetta e un Grillo-parlante.
 – Vorrei sapere da lor signori, – disse la Fata, rivolgendosi ai tre medici riuniti intorno al letto di Pinocchio, – vorrei sapere da lor signori se questo disgraziato burattino sia morto o vivo!...
@@ -1517,7 +1517,7 @@ E spiccato un salto, montò a cavalcioni sulle stanghe.
 – Non ti fasciare il capo con tante melanconie. Pensa che andiamo in un paese dove saremo padroni di fare il chiasso dalla mattina alla sera!
 Pinocchio non rispose: ma fece un sospiro: poi fece un altro sospiro: poi un terzo sospiro; finalmente disse:
 – Fatemi un po’ di posto: voglio venire anch’io!...
-– I posti son tutti pieni, – replicò l’omino, – ma per mostrarti quanto sei gradito, posso cederti il mio posto a csecure_assetta...
+– I posti son tutti pieni, – replicò l’omino, – ma per mostrarti quanto sei gradito, posso cederti il mio posto a cassetta...
 – E voi?...
 – E io farò la strada a piedi.
 – No, davvero, che non lo permetto. Preferisco piuttosto di salire in groppa a qualcuno di questi ciuchini! – gridò Pinocchio.
@@ -1530,7 +1530,7 @@ Allora grandi risate daccapo: ma l’omino, invece di ridere, si sentì preso da
 – Rimonta pure a cavallo e non aver paura. Quel ciuchino aveva qualche grillo per il capo: ma io gli ho detto due paroline negli orecchi e spero di averlo reso mansueto e ragionevole.
 Pinocchio montò: e il carro cominciò a muoversi: ma nel tempo che i ciuchini galoppavano e che il carro correva sui ciotoli della via maestra, gli parve al burattino di sentire una voce sommessa e appena intelligibile, che gli disse:
 – Povero gonzo! Hai voluto fare a modo tuo, ma te ne pentirai!
-Pinocchio, quasi impaurito, guardò di qua e di là, per conoscere da qual parte venissero queste parole; ma non vide nessuno: i ciuchini galoppavano, il carro correva, i ragazzi dentro al carro dormivano, Lucignolo russava come un ghiro e l’omino seduto a csecure_assetta, canterellava fra i denti:
+Pinocchio, quasi impaurito, guardò di qua e di là, per conoscere da qual parte venissero queste parole; ma non vide nessuno: i ciuchini galoppavano, il carro correva, i ragazzi dentro al carro dormivano, Lucignolo russava come un ghiro e l’omino seduto a cassetta, canterellava fra i denti:
 Tutti la notte dormono
 E io non dormo mai...
 Fatto un altro mezzo chilometro, Pinocchio sentì la solita vocina fioca che gli disse:
@@ -1825,7 +1825,7 @@ A quella vista il povero Pinocchio ebbe un’allegrezza così grande e così ina
 – E come avete fatto a campare? E dove avete trovata la candela? E i fiammiferi per accenderla, chi ve li ha dati?
 – Ora ti racconterò tutto. Devi dunque sapere che quella medesima burrasca, che rovesciò la mia barchetta, fece anche affondare un bastimento mercantile. I marinai si salvarono tutti, ma il bastimento colò a fondo e il solito Pesce-cane, che quel giorno aveva un appetito eccellente, dopo aver inghiottito me, inghiottì anche il bastimento...
 – Come? Lo inghiottì tutto in un boccone?... – domandò Pinocchio maravigliato.
-– Tutto in un boccone: e risputò solamente l’albero maestro, perché gli era rimasto fra i denti come una lisca. Per mia gran fortuna, quel bastimento era carico di carne conservata in csecure_assette di stagno, di biscotto, ossia di pane abbrostolito, di bottiglie di vino, d’uva secca, di cacio, di caffè, di zucchero, di candele steariche e di scatole di fiammiferi di cera. Con tutta questa grazia di Dio ho potuto campare due anni: ma oggi sono agli ultimi sgoccioli: oggi nella dispensa non c’è più nulla, e questa candela, che vedi accesa, è l’ultima candela che mi sia rimasta...
+– Tutto in un boccone: e risputò solamente l’albero maestro, perché gli era rimasto fra i denti come una lisca. Per mia gran fortuna, quel bastimento era carico di carne conservata in cassette di stagno, di biscotto, ossia di pane abbrostolito, di bottiglie di vino, d’uva secca, di cacio, di caffè, di zucchero, di candele steariche e di scatole di fiammiferi di cera. Con tutta questa grazia di Dio ho potuto campare due anni: ma oggi sono agli ultimi sgoccioli: oggi nella dispensa non c’è più nulla, e questa candela, che vedi accesa, è l’ultima candela che mi sia rimasta...
 – E dopo?...
 – E dopo, caro mio, rimarremo tutt’e due al buio.
 – Allora, babbino mio, – disse Pinocchio, – non c’è tempo da perdere. Bisogna pensar subito a fuggire...

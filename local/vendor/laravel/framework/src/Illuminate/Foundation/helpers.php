@@ -133,17 +133,17 @@ if (! function_exists('app_path')) {
     }
 }
 
-if (! function_exists('secure_asset')) {
+if (! function_exists('asset')) {
     /**
-     * Generate an secure_asset path for the application.
+     * Generate an asset path for the application.
      *
      * @param  string  $path
      * @param  bool|null  $secure
      * @return string
      */
-    function secure_asset($path, $secure = null)
+    function asset($path, $secure = null)
     {
-        return app('url')->secure_asset($path, $secure);
+        return app('url')->asset($path, $secure);
     }
 }
 
@@ -709,16 +709,16 @@ if (! function_exists('route')) {
     }
 }
 
-if (! function_exists('secure_secure_asset')) {
+if (! function_exists('secure_asset')) {
     /**
-     * Generate an secure_asset path for the application.
+     * Generate an asset path for the application.
      *
      * @param  string  $path
      * @return string
      */
-    function secure_secure_asset($path)
+    function secure_asset($path)
     {
-        return secure_asset($path, true);
+        return asset($path, true);
     }
 }
 

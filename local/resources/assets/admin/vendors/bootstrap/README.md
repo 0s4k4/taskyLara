@@ -40,7 +40,7 @@ Read the [Getting started page](http://getbootstrap.com/getting-started/) for in
 
 ### What's included
 
-Within the download you'll find the following directories and files, logically grouping common secure_assets and providing both compiled and minified variations. You'll see something like this:
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
 bootstrap/

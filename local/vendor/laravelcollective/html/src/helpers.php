@@ -18,9 +18,9 @@ if (! function_exists('link_to')) {
     }
 }
 
-if (! function_exists('link_to_secure_asset')) {
+if (! function_exists('link_to_asset')) {
     /**
-     * Generate a HTML link to an secure_asset.
+     * Generate a HTML link to an asset.
      *
      * @param string $url
      * @param string $title
@@ -29,9 +29,9 @@ if (! function_exists('link_to_secure_asset')) {
      *
      * @return \Illuminate\Support\HtmlString
      */
-    function link_to_secure_asset($url, $title = null, $attributes = [], $secure = null)
+    function link_to_asset($url, $title = null, $attributes = [], $secure = null)
     {
-        return app('html')->linksecure_asset($url, $title, $attributes, $secure);
+        return app('html')->linkasset($url, $title, $attributes, $secure);
     }
 }
 

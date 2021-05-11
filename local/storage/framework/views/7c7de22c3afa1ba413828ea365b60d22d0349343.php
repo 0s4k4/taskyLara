@@ -17,7 +17,7 @@
 			 if($logphoto!=""){?>
                 <img src="<?php echo  $url;?>/local/images/userphoto/<?php echo $logphoto;?>" alt="..." >
 			 <?php } else { ?>
-			   <img src="<?php echo e(secure_asset('local/resources/secure_assets/img/user.png')); ?>" alt="..." >
+			   <img src="<?php echo e(asset('local/resources/assets/img/user.png')); ?>" alt="..." >
 			 <?php } ?><?php echo e(Auth::user()->name); ?> 
                     <span class=" fa fa-angle-down"></span>
                   </a>

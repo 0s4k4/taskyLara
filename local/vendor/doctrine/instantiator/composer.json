@@ -36,7 +36,7 @@
         "psr-0": {
             "DoctrineTest\\InstantiatorPerformance\\": "tests",
             "DoctrineTest\\InstantiatorTest\\": "tests",
-            "DoctrineTest\\InstantiatorTestsecure_asset\\": "tests"
+            "DoctrineTest\\InstantiatorTestasset\\": "tests"
         }
     }
 }

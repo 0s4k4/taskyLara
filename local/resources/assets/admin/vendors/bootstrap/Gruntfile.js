@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 
   Object.keys(configBridge.paths).forEach(function (key) {
     configBridge.paths[key].forEach(function (val, i, arr) {
-      arr[i] = path.join('./docs/secure_assets', val);
+      arr[i] = path.join('./docs/assets', val);
     });
   });
 
@@ -74,8 +74,8 @@ module.exports = function (grunt) {
         },
         src: 'js/tests/unit/*.js'
       },
-      secure_assets: {
-        src: ['docs/secure_assets/js/src/*.js', 'docs/secure_assets/js/*.js', '!docs/secure_assets/js/*.min.js']
+      assets: {
+        src: ['docs/assets/js/src/*.js', 'docs/assets/js/*.js', '!docs/assets/js/*.min.js']
       }
     },
 
@@ -92,11 +92,11 @@ module.exports = function (grunt) {
       test: {
         src: '<%= jshint.test.src %>'
       },
-      secure_assets: {
+      assets: {
         options: {
           requireCamelCaseOrUpperCaseIdentifiers: null
         },
-        src: '<%= jshint.secure_assets.src %>'
+        src: '<%= jshint.assets.src %>'
       }
     },
 
@@ -138,11 +138,11 @@ module.exports = function (grunt) {
       },
       customize: {
         src: configBridge.paths.customizerJs,
-        dest: 'docs/secure_assets/js/customize.min.js'
+        dest: 'docs/assets/js/customize.min.js'
       },
       docsJs: {
         src: configBridge.paths.docsJs,
-        dest: 'docs/secure_assets/js/docs.min.js'
+        dest: 'docs/assets/js/docs.min.js'
       }
     },
 
@@ -195,7 +195,7 @@ module.exports = function (grunt) {
         src: 'dist/css/<%= pkg.name %>-theme.css'
       },
       docs: {
-        src: ['docs/secure_assets/css/src/docs.css']
+        src: ['docs/assets/css/src/docs.css']
       },
       examples: {
         expand: true,
@@ -221,7 +221,7 @@ module.exports = function (grunt) {
           ids: false,
           'overqualified-elements': false
         },
-        src: 'docs/secure_assets/css/src/docs.css'
+        src: 'docs/assets/css/src/docs.css'
       }
     },
 
@@ -244,11 +244,11 @@ module.exports = function (grunt) {
       },
       docs: {
         src: [
-          'docs/secure_assets/css/ie10-viewport-bug-workaround.css',
-          'docs/secure_assets/css/src/pygments-manni.css',
-          'docs/secure_assets/css/src/docs.css'
+          'docs/assets/css/ie10-viewport-bug-workaround.css',
+          'docs/assets/css/src/pygments-manni.css',
+          'docs/assets/css/src/docs.css'
         ],
-        dest: 'docs/secure_assets/css/docs.min.css'
+        dest: 'docs/assets/css/docs.min.css'
       }
     },
 
@@ -269,8 +269,8 @@ module.exports = function (grunt) {
         dest: 'docs/examples/'
       },
       docs: {
-        src: 'docs/secure_assets/css/src/docs.css',
-        dest: 'docs/secure_assets/css/src/docs.css'
+        src: 'docs/assets/css/src/docs.css',
+        dest: 'docs/assets/css/src/docs.css'
       }
     },
 
@@ -381,7 +381,7 @@ module.exports = function (grunt) {
         replacement: grunt.option('newver'),
         exclude: [
           'dist/fonts',
-          'docs/secure_assets',
+          'docs/assets',
           'fonts',
           'js/tests/vendor',
           'node_modules',
@@ -510,7 +510,7 @@ module.exports = function (grunt) {
   grunt.registerTask('docs-css', ['autoprefixer:docs', 'autoprefixer:examples', 'csscomb:docs', 'csscomb:examples', 'cssmin:docs']);
   grunt.registerTask('lint-docs-css', ['csslint:docs', 'csslint:examples']);
   grunt.registerTask('docs-js', ['uglify:docsJs', 'uglify:customize']);
-  grunt.registerTask('lint-docs-js', ['jshint:secure_assets', 'jscs:secure_assets']);
+  grunt.registerTask('lint-docs-js', ['jshint:assets', 'jscs:assets']);
   grunt.registerTask('docs', ['docs-css', 'lint-docs-css', 'docs-js', 'lint-docs-js', 'clean:docs', 'copy:docs', 'build-glyphicons-data', 'build-customizer']);
 
   grunt.registerTask('prep-release', ['dist', 'docs', 'jekyll:github', 'htmlmin', 'compress']);

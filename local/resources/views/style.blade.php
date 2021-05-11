@@ -72,20 +72,20 @@ $currentPaths= Route::getFacadeRoot()->current()->uri();
 	
 	
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link href="<?php echo $url;?>/local/resources/secure_assets/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo $url;?>/local/resources/assets/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
 	
 	<link rel="stylesheet" href="<?php echo $url;?>/local/resources/views/multiselect/fastselect.min.css">
         <script src="<?php echo $url;?>/local/resources/views/multiselect/fastselect.standalone.js"></script>
-		<link href="<?php echo $url;?>/local/resources/secure_assets/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+		<link href="<?php echo $url;?>/local/resources/assets/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
 		
 	
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo $url;?>/pagenavi/style.css" />
 
-	<script type="text/javascript" src="<?php echo $url;?>/local/resources/secure_assets/DataTables/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="<?php echo $url;?>/local/resources/assets/DataTables/js/jquery.dataTables.min.js"></script>
 	
 	<script type="text/javascript" src="<?php echo $url;?>/pagenavi/jquery.simplePagination.js"></script>
-	<script type="text/javascript" src="<?php echo $url;?>/local/resources/secure_assets/DataTables/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="<?php echo $url;?>/local/resources/assets/DataTables/js/jquery.dataTables.min.js"></script>
 	
 	
 

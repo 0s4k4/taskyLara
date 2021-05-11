@@ -39,13 +39,13 @@ interface UrlGenerator
     public function secure($path, $parameters = []);
 
     /**
-     * Generate the URL to an application secure_asset.
+     * Generate the URL to an application asset.
      *
      * @param  string  $path
      * @param  bool|null  $secure
      * @return string
      */
-    public function secure_asset($path, $secure = null);
+    public function asset($path, $secure = null);
 
     /**
      * Get the URL to a named route.

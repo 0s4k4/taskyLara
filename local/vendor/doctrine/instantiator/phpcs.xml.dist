@@ -35,7 +35,7 @@
     </rule>
 
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming">
-        <exclude-pattern>tests/DoctrineTest/InstantiatorTestsecure_asset/AbstractClasssecure_asset.php</exclude-pattern>
+        <exclude-pattern>tests/DoctrineTest/InstantiatorTestasset/AbstractClassasset.php</exclude-pattern>
     </rule>
 
     <rule ref="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming">

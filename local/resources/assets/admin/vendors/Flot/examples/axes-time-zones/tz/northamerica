@@ -3170,7 +3170,7 @@ Zone America/Puerto_Rico -4:24:25 -	LMT	1899 Mar 28 12:00    # San Juan
 
 # St Kitts-Nevis
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
-Zone America/St_Kitts	-4:10:52 -	LMT	1912 Mar 2	# Bsecure_asseterre
+Zone America/St_Kitts	-4:10:52 -	LMT	1912 Mar 2	# Basseterre
 			-4:00	-	AST
 
 # St Lucia
