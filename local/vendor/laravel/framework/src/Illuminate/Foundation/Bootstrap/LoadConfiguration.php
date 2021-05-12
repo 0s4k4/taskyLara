@@ -43,7 +43,7 @@ class LoadConfiguration
         // values that were loaded. We will pass a callback which will be used to get
         // the environment in a web context where an "--env" switch is not present.
         $app->detectEnvironment(function () use ($config) {
-            return $config->get('app.env', 'production');
+            return $config->get('app.env', 'local');
         });
 
         date_default_timezone_set($config->get('app.timezone', 'UTC'));

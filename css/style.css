@@ -1515,13 +1515,12 @@ h4.headingcolor
 .headingcolor
 {
 
-  color: black; 
+  color: white; 
   font-family: 'Anton', sans-serif;
 }
 
 h1.headingcolor
 {
-	-webkit-text-stroke: 1px white;
 	font-size: 50px;
     line-height: 60px;
 	text-transform: uppercase;
@@ -1529,7 +1528,6 @@ h1.headingcolor
 }
 h4.headingcolor
 {
-	-webkit-text-stroke: .7px white;
 	font-size:30px;
 	line-height:27px;
 	padding-left:20px;
