@@ -27,6 +27,15 @@ last updated: 04-03-2021
 |
 */
 
+
+if((isset($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] === 'http')){
+    // redireccionar a https
+    $redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $redirect);
+    exit();
+}
+
 require __DIR__.'/local/bootstrap/autoload.php';
 
 /*
