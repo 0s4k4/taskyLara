@@ -996,7 +996,7 @@ h1 br {
 
 h1.headingcolor
 {
-	font-family: 'Anton', sans-serif;
+	font-family: century gothic;
 	color: white;
 	font-size: 28px;
     padding: 0 15px;
@@ -1518,21 +1518,22 @@ h4.headingcolor
 {
 
   color: white; 
-  font-family: 'Anton', sans-serif;
+  font-family: century gothic;
 }
 
 h1.headingcolor
 {
-	font-size: 50px;
+	font-size: 45px;
     line-height: 60px;
 	text-transform: uppercase;
 	text-align: center;
+	
 }
 h4.headingcolor
 {
-	font-size:30px;
-	line-height:27px;
-	padding-left:20px;
+	font-size:25px;
+	line-height:25px;
+	padding-left:15px;
 	padding-right:20px;
 }
 
@@ -3806,7 +3807,7 @@ header .borbtn:hover, header  .borbtn {
 h4.headingcolor {
 	color: white;
     font-size: 14px;
-	font-family: 'Anton', sans-serif;
+	font-family: century gothic;
 
 }
 }
