@@ -85,7 +85,9 @@
 			<h3>{{ __('user.contact_address') }}</h3>
 				<p><span class="lnr lnr-map-marker"></span> <?php echo  ' '.$shop[0]->address;?>
 				</p>
-								<p> <span class="lnr lnr-clock"></span> <?php echo $stime;?> - <?php echo $etime;?></p> 
+				<p><span class="lnr lnr-phone-handset"></span> <?php echo  ' '.$shop[0]->shop_phone_no;?> </p>
+				<p> <span class="lnr lnr-clock"></span> <?php echo $stime;?> - <?php echo $etime;?></p> 
+				<p><span class="lnr lnr-envelope"></span><?php echo ' '.$shop[0]->seller_email;?></p>
 			</div>
 				</div>
 				
