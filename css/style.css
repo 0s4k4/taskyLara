@@ -996,10 +996,8 @@ h1 br {
 
 h1.headingcolor
 {
-	font-family: 'Anton', sans-serif;
 	font-size: 28px;
     padding: 0 15px;
-	color: white;
 
 }
 .searchtext,.searchbtn
@@ -3802,9 +3800,7 @@ header .borbtn:hover, header  .borbtn {
 }
 .searchtext,
 h4.headingcolor {
-    font-size: 12px;
-	font-family: 'Anton', sans-serif;
-	color: white;
+    font-size: 14px;
 }
 }
 
