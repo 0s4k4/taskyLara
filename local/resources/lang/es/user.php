@@ -135,7 +135,7 @@ return [
         /*profile*/
 
         'description' => 'Descripción',
-        'contact_address' => 'dirección de contacto',
+        'contact_address' => 'Informacion de contacto',
         'shop_working_days' => 'Días de trabajo',
         'sunday' => 'domingo',
         'monday' => 'lunes',
