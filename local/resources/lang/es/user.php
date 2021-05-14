@@ -18,7 +18,7 @@ return [
     'post_job' => 'Anunciar un trabajo',
     'my_posted_jobs' => 'Mis trabajos publicados',
     'running_jobs_client' => 'Mis trabajos en ejecución (como cliente)',
-    'running_jobs_freelancer' => 'Mis trabajos corrientes (como freelancer)',
+    'running_jobs_freelancer' => 'Mis trabajos corrientes (como Tasker)',
     'my_applied_jobs' => ' Mis trabajos aplicados',
     'all_jobs' => 'Todos los trabajos',
     'my_shop' => 'Mi tienda',
@@ -31,17 +31,17 @@ return [
     /*index*/
 
     'convenient_affordable_around_home' => 'La forma mas fácil de encontrar un servicio sin salir de casa',
-    'taskers_help_without_breaking_bank' => 'Elija entre nuestro catalago de Taskers aprobados y evaluados para obtener ayuda de forma fácil y segura.',
+    'taskers_help_without_breaking_bank' => 'Elije entre miles de taskers listos para brindarte el servicio que estas buscando',
     'need_something_different' => '¿Qué servicio necesitas?',
     'get_started' => 'Buscar',
     'how_works' => 'Cómo funciona',
-    'describe_task' => 'Buscar entre nuestro extenso catálogo de Taskers',
+    'describe_task' => 'Busca en nuestro extenso catálogo de Taskers',
     'describe_task_para1' => 'Elija entre una variedad de servicios y seleccione el día y la hora en que desea que un Tasker calificado realice dicha tarea. Danos los detalles y te encontraremos la ayuda.',
     'get_matched' => 'Compáralos y elige el que mejor se adapte a tus necesidades',
     'get_matched_para1' => 'Seleccione de una lista de Taskers calificados y completamente examinados para el trabajo. Elija Taskers por su tarifa y comience a chatear con ellos directamente en la aplicación.',
     'get_done' => 'Contacta con el Tasker y cierra el trato',
     'get_done_para1' => 'Así, tu Tasker llega y hace el trabajo. Cuando su tarea esté completa, el pago se realizará de manera transparente y segura a través de la aplicación.',
-    'customers_get_millions' => 'Utiliza la aplicacion para realisar todos los proyectos que siempre tuviste en mente rápida y fácilmente',
+    'customers_get_millions' => 'Utiliza la aplicacion para realizar todos los proyectos que siempre tuviste en mente rápida y fácilmente',
     'quickly_easily' => '',
     'get_more_anytime_anywhere' => 'Haz más cosas en cualquier momento y en cualquier lugar',
     'get_more_anytime_anywhere_para1' => 'Envía solicitudes de proyectos, obtén presupuestos y contrata al profesional adecuado con la aplicación gratuita para telefonos moviles Android e IOS.',
@@ -82,7 +82,7 @@ return [
 
     /*dashboard*/
 
-    'dashboard' => 'Tablero',
+    'dashboard' => 'Mi Perfil',
     'user_type' => 'Tipo de usuario:',
     'account_settings' => 'Configuraciones de la cuenta',
     'log_out' => 'Cerrar sesión',
@@ -393,7 +393,7 @@ return [
 
     /*Freelancer request*/
 
-    'job_freelancer' => 'Mi trabajo corriente (como freelancer)',
+    'job_freelancer' => 'Mi trabajo corriente (como Tasker)',
 
     /*Applied Job request*/
 
@@ -435,7 +435,7 @@ return [
     'your_email_address' =>'Tu correo electrónico',
     'describe_your_proposal' => 'Describe tu propuesta',
     'estimated_time_complete' => 'Tiempo estimado para completar',
-    'freelancers_bidding_job' => 'Los freelancers están ofertando por este trabajo',
+    'freelancers_bidding_job' => 'Los Taskers están ofertando por este trabajo',
     'estimate' => 'Estimar:',
     'awarded' => 'Galardonado',
     'apply_for_job' => 'Solicitar trabajo',
@@ -569,8 +569,8 @@ return [
     'pros' => 'Pros',
     'success_stories' => 'Historias de éxito',
     'questions' => 'Preguntas?',
-    'android' => 'Androide',
-    'iphone' => 'Iphone',
+    'android' => 'Android',
+    'iphone' => 'IOS',
     'download_thumbsup_app'=> 'Descargar la aplicación Thumbsup',
     'all_rights_reserved' => 'Todos los derechos reservados. Diseñada por',
 ];

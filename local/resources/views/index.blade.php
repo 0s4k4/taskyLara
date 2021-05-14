@@ -137,7 +137,7 @@ $setid=1;
 	  <div class="media-body">
 		<span class="count"  style="font-size:35px; color:#FF4600" >1</span>
 	<center><h4 class="media-heading"><b style="color:#02B21E"> {{ __('user.describe_task') }}</b></h4></center>
-		<p class=""> {{ __('user.describe_task_para1') }}</p>
+		
 	  </div>
 	</div>
 	</div>
@@ -152,7 +152,7 @@ $setid=1;
 	  <div class="media-body">
 		<span class="count" style="font-size:35px; color:#FF4600" >2</span>
 		<center><h4 class="media-heading"><b  style="color:#02B21E"> {{ __('user.get_matched') }}</b></h4></center>
-		<p class=""> {{ __('user.get_matched_para1') }}</p>
+	
 	  </div>
 	</div>
 	
@@ -167,7 +167,7 @@ $setid=1;
 	  <div class="media-body">
 		<span class="count" style="font-size:35px; color:#FF4600" >3</span>
 		<center><h4 class="media-heading"> <b style="color:#02B21E">{{ __('user.get_done') }}</b></h4></center>
-		<p class=""> {{ __('user.get_done_para1') }}</p>
+	
 	  </div>
 	</div>
 	</div>
