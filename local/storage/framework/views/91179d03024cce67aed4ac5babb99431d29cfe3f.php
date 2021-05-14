@@ -117,7 +117,6 @@
 			<?php foreach($viewservice as $sellerservice){?>
 			
 						
-			
 			<div class="col-md-3 col-sm-3">
 			<div class="services">
 			<div class="col-md-6">
@@ -136,7 +135,8 @@
 				<div class="col-md-6 nopadding">
 				<h4 class="customh4"><?php echo $sellerservice->subname;?></h4>
 				
-					<h5 class="customh5"><i class="fa fa-info-circle yellows" aria-hidden="true"></i> <?php echo $sellerservice->price;?> <?php echo $setting[0]->site_currency;?> | <?php echo $sellerservice->time . " hr"; ?></h5>
+				<!-- se comenta la linea de precios en la carta de servicios -->
+					<!-- <h5 class="customh5"><i class="fa fa-info-circle yellows" aria-hidden="true"></i> <?php echo $sellerservice->price;?> <?php echo $setting[0]->site_currency;?> | <?php echo $sellerservice->time . " hr"; ?></h5> -->
 					<!-- <div style="clear: both;"></div> -->
 								<button type="button" class="vendor-description " data-toggle="modal" data-target="#description_<?php echo e($sellerservice->id); ?>">
 								  <?php echo e(__('user.description')); ?>
