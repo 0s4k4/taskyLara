@@ -11,7 +11,7 @@ $setid=1;
 <?php if($ncurrentPath=="index" or $ncurrentPath=="/"){ } else {?>
 <?php if(!empty($setts[0]->site_ads_space)){?>
 <div class="col-md-12 sv_ad_img" align="center">
-<?php echo htmlspecialchars_decode($setts[0]->site_ads_space);?>
+<?php echo htmlspecialchars_decode($setts[0]->site_ads_space);?> 
 </div>
 <div class="clearfix"></div>
 <?php } } ?>
@@ -35,7 +35,7 @@ $setid=1;
 		   <?php } ?>
 		  </a>-->
 
-		  <img src="local/images/4tasker2.png">
+		  <img src="/local/images/4tasker2.png">
 
 
 

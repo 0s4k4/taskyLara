@@ -1527,6 +1527,7 @@ h1.headingcolor
     line-height: 60px;
 	text-transform: uppercase;
 	text-align: center;
+	margin: inherit;
 	
 }
 h4.headingcolor
